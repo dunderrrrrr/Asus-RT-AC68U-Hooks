@@ -3,11 +3,11 @@ Asus RT-AC68U Hooks
 
 Fetch data with different hooks from your Asus router through this Python script.  
 
-This will probably work with other firmare/versions of the Asus RT-series. Following hooks has been found on *Asus RT-AC68U* running *Merlin 384.17_0*.  
+This will probably work with other firmare/versions of the Asus RT-series. Following hooks has been found on **Asus RT-AC68U** running **Merlin 384.17_0**.  
 
-Replace settings in `run.py` and install python requirements `pip install -r requirements.txt`. Execute with `$python run.py`.  
+Replace settings in `run.py` and install python requirements `pip install -r requirements.txt`. Execute with `python run.py`.
 
-Make sure `user-agent` is set in your payload to `asusrouter-Android-DUTUtil-1.0.0.201`. If not, the router wont return your token needed to get all data.  
+Make sure `user-agent` is set in your header to `asusrouter-Android-DUTUtil-1.0.0.201`. If not, the router wont return your token needed to get all data.  
 
 I have not been able to find any of these hooks in any of the router-files. Hooks are discovered through the Asus Router App (https://www.asus.com/asus-router-app/) while Wiresharking.  
 
